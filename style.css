@@ -1,9 +1,8 @@
-body {
+body{
     background: rgb(233, 230, 230);
-
 }
 
-h1 {
+h1{
     font-size: 60px;
     color: gray;
     border-bottom-width: 1px;
@@ -11,35 +10,34 @@ h1 {
     border-bottom-color: gray;
 }
 
-#menu, #menu ul {
+#menu, #menu ul{
     font-size: 20px;
-    padding: 0;
     margin: 0;
+    padding: 0;
     list-style: none;
     width: 180px;
 }
 
-#menu li {
-    position: relative;
-    background: rgb(233, 230, 230);
+#menu li{
+    position:relative;
+    background: rgb(233, 230, 230);;
     color: rgb(149, 105, 160);
     border-right-width: 1px;
     border-right-style: solid;
     border-right-color: gray;
-
 }
 
-#menu a {
+#menu a{
     display: block;
     text-decoration: none;
-    color: rgb(149, 105, 160);
+    color:rgb(149, 105, 160);
 }
 
-#menu ul {
+#menu ul{
     position: absolute;
 }
 
-#menu li:hover ul {
-    top: 0;
+#menu li:hover ul{
+    top: 0px;
     left: 200px;
 }
